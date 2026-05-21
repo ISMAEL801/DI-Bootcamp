@@ -1,16 +1,16 @@
 #Challenge 1
 
-# mot = input("Entrez un mot : ")
+mot = input("Entrez un mot : ")
 
-# lettre_indexes = {}
+lettre_indexes = {}
 
-# for index, lettre in enumerate(mot):
-#     if lettre in lettre_indexes:
-#         lettre_indexes[lettre].append(index)
-#     else:
-#         lettre_indexes[lettre] = [index]
+for index, lettre in enumerate(mot):
+    if lettre in lettre_indexes:
+        lettre_indexes[lettre].append(index)
+    else:
+        lettre_indexes[lettre] = [index]
 
-# print(lettre_indexes)
+print(lettre_indexes)
 
 #Challenge 2
 
