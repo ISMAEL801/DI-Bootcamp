@@ -2,20 +2,21 @@
 print("Hello world\n"*4)
 
 
-# #Exercise2
+#Exercise2
 print(((99**3)*8))
 
-# #Exercise
+# #Exercise3
  5 < 3 #False
  3 == 3 #True
  3 == "3" #Error
  "3" > 3 #Error
  "Hello" == "hello" #False
  
-# #exercise
+# #exercise4
+
 computer_brand = "Lenovo"
-print("I have a "+ computer_brand + " computer.")
-  
+print(f"I have a {computer_brand} computer.")
+
 
 # #Exercise5
 name = "OUEDRAOGO"
@@ -47,7 +48,7 @@ else:
 
 # #Exercice9
 taille= int(input("Enttrez votre taille en cm :"))
-if taille >
+if taille >145:
     print("Vous êtes assez grand pour monter à bord.")
 else:
     print("vous devez grandir un peu pour pouvoir monter à cheval.")
